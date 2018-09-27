@@ -549,11 +549,11 @@ main.scale-down {
 }
 .cd-section header {
   height: 100vh;
-  background-image: url("../../resources/img/img_intro.jpg");
+  background-image: url("../../resources/img/img_intro.JPG");
   position: relative;
 }
 .cd-section.projects header {
-  background-image: url("../../resources/img/img_flora_fauna.jpg");
+  background-image: url("../../resources/img/img_flora_fauna.JPG");
 }
 .cd-section.about header {
   background-image: url("../../resources/img/img_acerca_pena.JPG");
@@ -562,10 +562,10 @@ main.scale-down {
   background-image: url("../../resources/img/img_datos_curiosos.JPG");
 }
 .cd-section.careers header {
-  background-image: url("../../resources/img/img_ecologia.jpg");
+  background-image: url("../../resources/img/img_ecologia.JPG");
 }
 .cd-section.contact header {
-  background-image: url("../../resources/img/img_que_llevar.jpg");
+  background-image: url("../../resources/img/img_que_llevar.JPG");
 }
 
 @media only screen and (min-width: 700px) {
