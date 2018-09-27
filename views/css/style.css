@@ -549,7 +549,7 @@ main.scale-down {
 }
 .cd-section header {
   height: 100vh;
-  background-image: url("../../resources/img/img_intro.jpg");
+  background-image: url("../../resources/img/intro.jpg");
   position: relative;
 }
 .cd-section.projects header {
