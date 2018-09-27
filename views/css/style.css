@@ -553,19 +553,19 @@ main.scale-down {
   position: relative;
 }
 .cd-section.projects header {
-  background-image: url("../../resources/img/img_flora_fauna.JPG");
+  background-image: url("../../resources/img/img_flora_fauna.jpg");
 }
 .cd-section.about header {
-  background-image: url("../../resources/img/img_acerca_pena.JPG");
+  background-image: url("../../resources/img/img_acerca_pena.jpg");
 }
 .cd-section.services header {
-  background-image: url("../../resources/img/img_datos_curiosos.JPG");
+  background-image: url("../../resources/img/img_datos_curiosos.jpg");
 }
 .cd-section.careers header {
-  background-image: url("../../resources/img/img_ecologia.JPG");
+  background-image: url("../../resources/img/img_ecologia.jpg");
 }
 .cd-section.contact header {
-  background-image: url("../../resources/img/img_que_llevar.JPG");
+  background-image: url("../../resources/img/img_que_llevar.jpg");
 }
 
 @media only screen and (min-width: 700px) {
