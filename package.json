@@ -1,27 +1,23 @@
 {
-  "name": "freelancer",
-  "title": "Freelancer",
-  "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/freelancer",
-  "author": "Start Bootstrap",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
-  },
-  "devDependencies": {
-    "bootstrap": "^3.3.7",
-    "browser-sync": "^2.13.0",
-    "font-awesome": "^4.6.3",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.10",
-    "gulp-header": "^1.8.7",
-    "gulp-less": "^3.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.5.4",
-    "jquery": "^1.11.3"
+  "name": "pena_de_bernal",
+  "version": "1.0.0",
+  "description": "Proyecto para promover la consciencia social en Bernal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+    "url": "git+https://github.com/estebanquintana6/pena_de_bernal.git"
+  },
+  "author": "Esteban Quintana Cueto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estebanquintana6/pena_de_bernal/issues"
+  },
+  "homepage": "https://github.com/estebanquintana6/pena_de_bernal#readme",
+  "dependencies": {
+    "angular": "^1.7.4",
+    "bootstrap": "^4.1.3"
   }
 }
