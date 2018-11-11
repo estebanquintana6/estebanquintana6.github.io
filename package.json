@@ -1,23 +1,30 @@
 {
-  "name": "pena_de_bernal",
+  "name": "crowdsourcing_mosquitoes",
   "version": "1.0.0",
-  "description": "Proyecto para promover la consciencia social en Bernal.",
+  "description": "Christian Ricardo Sol�s Cort�s",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/estebanquintana6/pena_de_bernal.git"
+    "url": "git+https://github.com/crsc26/Crowd-sourcing-mosquito-tool.git"
   },
-  "author": "Esteban Quintana Cueto",
+  "keywords": [
+    "mosquito",
+    "crowdsourcing"
+  ],
+  "author": "Christian Solís",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/estebanquintana6/pena_de_bernal/issues"
+    "url": "https://github.com/crsc26/Crowd-sourcing-mosquito-tool/issues"
   },
-  "homepage": "https://github.com/estebanquintana6/pena_de_bernal#readme",
+  "homepage": "https://github.com/crsc26/Crowd-sourcing-mosquito-tool#readme",
   "dependencies": {
     "angular": "^1.7.4",
-    "bootstrap": "^4.1.3"
+    "angular-google-maps": "^2.4.1",
+    "bootstrap": "^4.1.3",
+    "bootstrap-imageupload": "^1.1.3",
+    "gmap": "^1.0.1"
   }
 }

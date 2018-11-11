@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <title>Bienvenido</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--===============================================================================================-->
+  <link rel="icon" type="image/png" href="../public/img/icons/favicon.ico"/>
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="../public/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="../public/css/main.css">
+  <link rel="stylesheet" type="text/css" href="../public/vendor/bootstrap/css/bootstrap.min.css">
+
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="../public/css/personal.css">
+  <link href="../public/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+  <!--=================================== Google Authentication ===========================================-->
+  <meta name="google-signin-client_id" content="243072573298-3280l16cl2ourd5k3520ksf4merjb391.apps.googleusercontent.com">
+
+</head>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<body style="background-color: #7d8a35;" ng-controller="User_Controller">
+    <div class="container emp-profile">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt=""/>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="profile-head">
+                        <h5>Bienvenid@ Kshiti Ghelani</h5>
+                        <h6>En esta página podrás encontrar tus aportaciones</h6>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Aportaciones</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                  <button type="button" class="btn btn-danger" onclick="signOut();" href="https://accounts.google.com/Logout?hl=en&amp;continue=https://mail.google.com/mail&amp;service=mail&amp;timeStmp=1541657981&amp;secTok=.AG5fkS9RZMWwsrmEG-WZZGnKAMMIzrtZEg">Cerrar Sesión</button>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="profile-work">
+                        <p>Enlaces:</p>
+                        <a href="">Tus aportaciones</a><br/>
+                        <a href="">Mapa mundial de aportaciones</a><br/>
+                        <a href="">Nueva aportación</a>
+                    </div>
+                </div>
+
+                <div class="col-md-8 container">
+                    <div class="tab-content profile-tab" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row">
+                              <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">First</th>
+                                    <th scope="col">Last</th>
+                                    <th scope="col">Handle</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--===== ng-map js ============================================================================-->
+
+    <!--===== Google Maps API ============================================================================-->
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyB7OEYVCAHCUAxg2ucI9zIGc4bvomiHuLU&libraries=places"></script>
+
+    <!--===== Google Authentication ============================================================================-->
+
+    <!--===== Angular modules ============================================================================-->
+    <script src="../../node_modules/angular/angular.min.js"></script>
+
+    <script src="../controllers/user_view.js"></script>
+
+    	<!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../public/vendor/jquery/jquery.min.js"></script>
+    <script src="../public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../public/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="../public/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="../public/js/jqBootstrapValidation.js"></script>
+
+    <!-- Script for Google Authentication -->
+    <script src="https://apis.google.com/js/client:platform.js?onload=renderButton" async defer></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="../public/js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../public/js/freelancer.min.js"></script>
+
+    <script>
+      function signOut() {
+        var auth2 = gapi.auth2.getAuthInstance();
+        auth2.signOut().then(function () {
+          console.log('User signed out.');
+        });
+      }
+    </script>
+
+</body>
+</html>
