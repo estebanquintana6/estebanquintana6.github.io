@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>GUAL</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../server/static/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="../../server/static/js/bootstrap.min.js"></script>
+  <link href="../../server/static/css/custom.css" rel="stylesheet" type="text/css">
+  <link href="../../server/static/css/agency.css" rel="stylesheet" type="text/css">
+  <link href="../../server/static/css/style.css" rel="stylesheet" type="text/css">
+  <src src="../../server/static/js/clicks.js"></src>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+	<header class="cd-header">
+		<div id="cd-logo"><a href="#0"><a href="index.html" class="button">Regresar</a></a></div>
+	</header>
+	<section id="cd-intro" class="cd-valuaciones">
+        <div class="overlay"></div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+            <img src="../../server/static/img/logo_general.svg" width="30%" class="logoresponsive">
+        </div>
+        </div>
+   
+		<div id="cd-intro-tagline">
+		</div> <!-- #cd-intro-tagline -->
+	</section> <!-- #cd-intro -->
+
+	<div class="cd-secondary-nav">
+		<a href="#0" class="cd-secondary-nav-trigger">Menu<span></span></a> <!-- button visible on small devices -->
+		<nav>
+			<ul>
+				<li>
+					<a href="#about">
+						<b>Acerca</b>
+						<span></span><!-- icon -->
+					</a>
+				</li>
+				<li>
+					<a href="#services">
+						<b>Servicios</b>
+						<span></span><!-- icon -->
+					</a>
+				</li>				
+                <li>
+					<a href="#contact">
+						<b>Contacto</b>
+						<span></span><!-- icon -->
+					</a>
+				</li>
+
+			</ul>
+		</nav>
+	</div> <!-- .cd-secondary-nav -->
+<!-- Container (About Section) -->
+<!-- Container (About Section) -->
+<section id="about" class="container-fluid bg-grey">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Acerca de este servicio</h2><br>
+        <h4>Debemos contribuir a la certidumbre del valor económico que ha logrado nuestro cliente en sus propiedades y/o bienes, así como en los proyectos de desarrollo inmobiliario e industrial por medio de una <strong>APRECIACIÓN TÉCNICA RAZONABLE.</strong> <br><br>
+Con nosotros usted encontrará la apreciación justa y real de sus bienes así como una asesoría completa y profesional para la mejor toma de desiciones.
+</h4>
+    </div>
+    <div class="col-sm-4">
+        <img src="../../server/static/img/Info.png" width="50%" class="slideanim">
+    </div>
+  </div>
+</div>    
+</section>
+
+<section id="services" class="container-fluid text-center">
+<div class="container">
+<div class="">
+  <h2>Tipos de valuaciones</h2>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4" id="av1">
+        <img src="../../server/static/img/house.png" width="30%"onclick="myComerciales(1)" style="cursor:pointer">
+      <h3 id="av1">Comerciales e hipotecarios</h3>
+    </div>
+    <div class="col-sm-4" id="av2">
+      <img src="../../server/static/img/real-estate.svg" width="30%" onclick="myComerciales(2)" style="cursor:pointer">
+      <h3>Fiscales</h3>
+    </div>
+    <div class="col-sm-4"  id="av3">
+      <img src="../../server/static/img/airplane.png" width="30%" onclick="myComerciales(3)" style="cursor:pointer">
+      <h3>Bienes muebles, maquinaria y equipo</h3>
+    </div>      
+  </div>
+    <div class="row slideanim" style="margin-top:5%">
+        <div class="col-sm-6" id="av4">
+            <img src="../../server/static/img/industria.png" width="25%" onclick="myComerciales(4)" style="cursor:pointer">
+            <h3>Especializados</h3>
+        </div>
+        <div class="col-sm-6" id="av5">
+            <img src="../../server/static/img/building-icon-35639.png" width="20%" onclick="myComerciales(5)" style="cursor:pointer">
+            <h3>Constitución de regimen de condominio</h3>
+        </div>
+    </div>
+    <div class="row" id="tog1" style="display:none" >
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-4">
+            <h3>Avalúos para: </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" >
+                <img src="../../server/static/img/house.png" width="50%" onclick="showAvaluos()"><br>
+            </div>
+            <div class="col-sm-2">
+                <img src="../../server/static/img/logos/2000px-LOGO_SHF.svg.png" width="100%">
+            </div>
+            <div class="col-sm-2">
+                <img src="../../server/static/img/logos/Banjercito-logo.gif" width="100%">
+            </div>
+            <div class="col-sm-2">
+                <img src="../../server/static/img/logos/Logo-Infonavit.png" width="100%">
+            </div>    
+            <div class="col-sm-2">
+                <img src="../../server/static/img/logos/LOGOFOVISSSTE.png" width="100%">
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-sm-2 col-sm-offset-7"><a onclick="showAvaluos()" class="button">Regresar</a></div>
+        </div>
+    </div>
+    <div class="row" id="tog2" style="display:none" >
+        <div class="col-sm-4" >
+            <img src="../../server/static/img/real-estate.svg" width="50%" onclick="showAvaluos()"><br>
+
+        </div>
+        <div class="col-sm-8">
+            <h3>Avalúos para traslado de dominio, escrituración e impuestos locales y federales</h3><br>
+                    <a onclick="showAvaluos()" class="button">Regresar</a>
+
+        </div>
+    </div>
+    <div class="row" id="tog3" style="display:none" >
+        <div class="col-sm-4" >
+           <img src="../../server/static/img/airplane.png" width="50%" onclick="showAvaluos()">
+        </div>
+        <div class="col-sm-8">
+            <h3>Si usted tiene la necesidad de determinar con precisión el valor del equipo que interviene en sus procesos, satisfacer las necesidades de sus inversionistas o justificar el valor de sus muebles, maquinarios o equipo para otros fines.</h3>
+            <br>
+                                <a onclick="showAvaluos()" class="button">Regresar</a>
+
+        </div>
+    </div>
+    <div class="row" id="tog4" style="display:none" >
+        <div class="col-sm-4" >
+           <img src="../../server/static/img/industria.png" width="50%" onclick="showAvaluos()">
+        </div>
+        <div class="col-sm-8">
+            <strong><h3>¿Sabe usted cuánto vale su Marca Registrada, Nombre Comercial, Software, Contrato, Franquicia?</h3></strong><br>
+            <strong><h4>¡Nosotros le ayudamos!</h4></strong>
+            <h4><strong>Estamos altamente calificados para hacerle saber valores, utilidad, potencial.</strong></h4>
+            <br>
+                                <a onclick="showAvaluos()" class="button">Regresar</a>
+
+        </div>
+    </div>    
+    <div class="row" id="tog5" style="display:none" >
+        <div class="col-sm-4" >
+           <img src="../../server/static/img/building-icon-35639.png" width="50%" onclick="showAvaluos()">
+        </div>
+        <div class="col-sm-8">
+            <br><br>
+            <h3>Incluyendo: Tramitología y memoria descriptiva.</h3>
+            <br>
+                                <a onclick="showAvaluos()" class="button">Regresar</a>
+
+        </div>
+    </div>      
+        </div> 
+    </div>
+    </section>
+<section class="nopadding" >    
+    <main class="cd-main-content">
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter">
+				<ul class="cd-filters">
+					<li class="placeholder"> 
+						<a data-type="all" href="#0">Todos</a> <!-- selected option on mobile -->
+					</li> 
+					<li class="filter"><a class="selected" href="#0" data-type="all" id="cat0">Todos</a></li>
+                    <li class="filter" data-filter=".color-1"><a href="#0" data-type="color-1" id="cat1">Comerciales</a></li>
+                    <li class="filter" data-filter=".color-2"><a href="#0" data-type="color-2" id="cat2">Fiscales</a></li>
+                    <li class="filter" data-filter=".color-3"><a href="#0" data-type="color-3" id="cat3">Inmuebles</a></li>
+                    <li class="filter" data-filter=".color-4"><a href="#0" data-type="color-4" id="cat4">Especializados</a></li>
+                    <li class="filter" data-filter=".color-5"><a href="#0" data-type="color-5" id="cat5">Regimen de condominio</a></li>
+                    
+                    
+				</ul> <!-- cd-filters -->
+			</div> <!-- cd-tab-filter -->
+		</div> <!-- cd-tab-filter-wrapper -->
+
+		<section class="cd-gallery bg-blue"  style="margin-bottom: 3%;">
+			<ul>
+				<li class="mix color-1"><img src="../../server/static/img/portfolio/VALUACI%C3%93N%20COMERCIAL.JPG" alt="Image 1"></li>
+				<li class="mix color-3"><img src="../../server/static/img/portfolio/P1210001.JPG" alt="Image 2"></li>
+				<li class="mix color-4"><img src="../../server/static/img/portfolio/DSC04379.JPG" alt="Image 3"></li>
+				<li class="mix color-4"><img src="../../server/static/img/portfolio/DSC08548.JPG" alt="Image 4"></li>
+				<li class="mix color-1"><img src="../../server/static/img/portfolio/DSC02445.JPG" alt="Image 5"></li>
+				<li class="mix color-3"><img src="../../server/static/img/portfolio/P1210010.JPG" alt="Image 6"></li>
+				<li class="mix color-1"><img src="../../server/static/img/portfolio/BODEGA%20COMERCIAL%20CON%20OFICINAS.jpg" alt="Image 7"></li>
+				<li class="mix color-4"><img src="../../server/static/img/portfolio/DSC00757.JPG" alt="Image 8"></li>
+				<li class="mix color-5"><img src="../../server/static/img/portfolio/IMGP8589.JPG" alt="Image 9"></li>
+				<li class="mix color-3"><img src="../../server/static/img/portfolio/P1040119.JPG" alt="Image 10"></li>
+				<li class="mix color-5"><img src="../../server/static/img/portfolio/koloria.jpg" alt="Image 11"></li>
+				<li class="mix color-5"><img src="../../server/static/img/portfolio/DSC02410.JPG" alt="Image 12"></li>
+				<li class="mix color-2"><img src="../../server/static/img/portfolio/DSC03032.JPG" alt="Image 13"></li>
+				<li class="mix color-2 color-5"><img src="../../server/static/img/portfolio/14-%20feb%20-%2014%20049.jpg" alt="Image 14"></li>
+				<li class="mix color-2"><img src="../../server/static/img/portfolio/6-08%20003.jpg" alt="Image 15"></li>
+                <li class="mix color-3"><img src="../../server/static/img/portfolio/valuacioninmueble.JPG" alt="Image 16"></li>
+                <li class="mix color-4"><img src="../../server/static/img/portfolio/IMGP2429.JPG" alt="Image 17"></li>
+                <li class="mix color-2"><img src="../../server/static/img/portfolio/07-07%20011.jpg" alt="Image 18"></li>
+                <li class="mix color-1"><img src="../../server/static/img/portfolio/IMG_5205.JPG" alt="Image 19"></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+			</ul>
+			<div class="cd-fail-message">No results found</div>
+		</section> <!-- cd-gallery -->
+
+	</main> <!-- cd-main-content -->
+
+</section>
+
+<!-- Container (Contact Section) -->
+
+<div class="container-fluid bg-grey">
+<h2 class="text-center">CONTACTO</h2>
+  <div class="row" id="contact">
+    <div class="col-sm-5">
+      <p>Contáctanos y nos comunicaremos contigo lo más pronto posible.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Querétaro, México</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 01 (442) 2170052</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 01 (442) 2174638</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Mensaje" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Envíar correo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add Google Maps -->
+<div id="map" style="height:400px;width:100%;"></div>
+<script src="../../server/static/js/jquery.mixitup.min.js"></script>
+<script src="../../server/static/js/main.js"></script>
+<script src="../../server/static/js/modernizr.js"></script>
+<script>
+function initMap() {
+        var myLatLng = {lat: 20.609190, lng:-100.4001610};
+    
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: myLatLng,
+          scrollwheel: false,
+          zoom: 20
+        });
+    
+        var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Hello World!'
+  });
+}
+</script>
+<script src="../../server/static/js/agency.js"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAELuTaaZqogjrrZesdSSoZYvMKJ5v4fg&callback=initMap" async defer></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+<div>Icons made by <a href="http://www.flaticon.com/authors/popcorns-arts" title="Popcorns Arts">Popcorns Arts</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>    
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+
+function myComerciales(id) {
+    var clas =  "cat" + id;
+    var e = document.getElementById(clas);
+    
+    for(i=1; i<6; i++){
+        var aux =  "av" + i;
+        $('#'+aux).hide();
+    }
+    
+    $('#tog' + id).fadeIn("slow");
+    
+    e.click();
+}
+    
+function showAvaluos(){
+    for(i=1; i<6; i++){
+        var aux =  "tog" + i;
+        $('#'+aux).hide();
+    }
+        for(i=1; i<6; i++){
+        var av = "av" + i;
+        $('#'+av).fadeIn("slow");
+    }
+    $('#cat0').click();
+}
+
+</script>
+
+</body>
+</html>
